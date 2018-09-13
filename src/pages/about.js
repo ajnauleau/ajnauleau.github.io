@@ -2,9 +2,11 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const SecondPage = () => (
-  <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+  <div class="container">
+    <h1>About</h1>
+    <strike>
+      <p>Soon</p>
+    </strike>
     <Link to="/">Go back to the homepage</Link>
   </div>
 )
