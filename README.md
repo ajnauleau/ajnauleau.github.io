@@ -1,3 +1,3 @@
 # Antoine Nauleau's Website 
 
-ajnauleau.github.io
+http://nauleau.io
