@@ -1,0 +1,30 @@
+{
+  "name": "ajnauleau.github.io",
+  "version": "1.0.0",
+  "description": "Antoine Nauleau's Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajnauleau/ajnauleau.github.io.git"
+  },
+  "keywords": [
+    "antoine",
+    "nauleau",
+    "personal",
+    "website",
+    "apply",
+    "job",
+    "seeking",
+    "bio",
+    "about"
+  ],
+  "author": "ajnauleau <antoine@nauleau.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajnauleau/ajnauleau.github.io/issues"
+  },
+  "homepage": "https://github.com/ajnauleau/ajnauleau.github.io#readme"
+}
