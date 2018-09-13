@@ -7,6 +7,7 @@
   Gatsby's default starter
 </h1>
 
+<<<<<<< HEAD
 Kick off your project with this default boilerplate. This barebones starter ships with the main Gatsby configuration files you might need. 
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://next.gatsbyjs.org/docs/gatsby-starters/)._
@@ -104,3 +105,6 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+=======
+http://nauleau.io
+>>>>>>> 4885570cf9dd82328001c12efb94bc73066d8ecb
