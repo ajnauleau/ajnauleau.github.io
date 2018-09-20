@@ -1,34 +1,58 @@
 <p align="center">
-  <a href="https://nauleau.io">
-    <img alt="Antoine" src="./assets/antoine-portrait.jpeg" width="60" />
+  <a href="https://nauleau.io/about/">
+    <img alt="Antoine" src="./assets/side-portrait.jpeg" width="120" />
   </a>
 </p>
 <h1 align="center">
-  Antoine's Resourful Page
+  Antoine's Personal Resource
 </h1>
 
-## 🚀 About
 
-1.  **Who Am I.**
 
+## 🧐 NAULEAU.IO 💻
+
+1.  **Welcome.**
+  
+    Who Am I?
+
+    Philosopher. Developer. Problem Solver-- Cryptographer? Maybe
+
+    Steal this layout from me. I dont really care.
+    
     ```sh
-    # install the necessary packages
+    git clone http://github.com/ajnauleau/nauleau.io.git
+    cd nauleau.io
     npm install
     ```
-
-2.  **Projects**
+    Enjoy. Antoine
     
-    Startups
-
-3.  **Started Developing.**
-
-    Add Stories
-
-4.  **Journey Full of Experiences**
+2.  **About.**
     
-    Work and open source experiences
+    French / American.
     
-## 🧐 What's inside?
+    Startups. Travel. Code.
+    
+    University of Washington.
+    
+    CCENT Networking Certification - Cisco [Valid 2017 - 2020]
+
+3.  **Work.**
+
+    Chainlinks - Founder, Full Stack Engineer [06/2018 - Current]
+    
+    Sober - Founder, Head of Product [10/2014 - 11/2015]
+    
+    Aisloc - Co-Founder, Software Engineer [04/2014 - 11/2014]
+
+4.  **Stuff.**
+    
+    Open source contributions to codebases of  [MetaMask](https://metamask.io), [Gitcoin](https://gitcoin.co) and [Ethereum](https://ethereum.org).
+    
+    I enjoy working in Python, Javascript, HTML/CSS, Node, Django, Express, React, Redux, PostgreSQL, and Mongodb. 
+    
+    I've been known to tinker with C, C++, and Rust (tried Go).
+    
+## 🧐 What's inside? 📕
 
 A quick look at the top-level files and directories you'll see in this personal website.
 
@@ -67,7 +91,7 @@ A quick look at the top-level files and directories you'll see in this personal 
   
   11.  **`yarn.lock`**: [Yarn](https://yarnpkg.com/) is a package manager alternative to npm. You can use either yarn or npm.  This file serves essentially the same purpose as `package-lock.json`, just for a different package management system.
 
-## 💫 Deploy
+## Deploy 💫
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ajnauleau/nauleau.io)
 =======
