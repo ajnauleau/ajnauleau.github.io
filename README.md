@@ -24,19 +24,33 @@
     cd nauleau.io
     npm install
     ```
-    Antoine
+    Enjoy. Antoine
     
 2.  **About.**
     
-    Startups
+    French / American.
+    
+    Startups. Travel. Code.
+    
+    University of Washington.
+    
+    CCENT Networking Certification - Cisco [Valid 2017 - 2020]
 
 3.  **Work.**
 
-    Add Stories
+    Chainlinks - Founder, Full Stack Engineer [06/2014 - 11/2014]
+    
+    Sober - Founder, Head of Product
+    
+    Aisloc - Co-Founder, Software Engineer
 
 4.  **Stuff.**
     
-    Work and open source experiences
+    Open source contributions to codebases of  MetaMask(https://metamask.io), Gitcoin(https://gitcoin.co) and Ethereum(https://ethereum.org).
+    
+    I enjoy working in Python, Javascript, HTML/CSS, Node, Django, Express, React, Redux, PostgreSQL, and Mongodb. 
+    
+    I've been known to tinker with C, C++, and Rust (tried Go).
     
 ## 🧐 What's inside? 📕
 
