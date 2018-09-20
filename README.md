@@ -1,30 +1,51 @@
 <p align="center">
-  <a href="https://nauleau.io">
-    <img alt="Antoine" src="./assets/antoine-portrait.jpeg" width="60" />
+  <a href="https://nauleau.io/about/">
+    <img alt="Antoine" src="./assets/side-portrait.jpeg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Antoine's Resourful Page
+  Antoine's Personal Resource
 </h1>
 
-## 🚀 About
+/*🏮 Red Paper Lantern
+📔 Notebook With Decorative Cover
+📕 Closed Book
+📖 Open Book
+📗 Green Book
+📘 Blue Book
+📙 Orange Book
+📚 Books
+📓 Notebook
+📃 Page With Curl
+📜 Scroll
+📄 Page Facing Up*/
+
+## 📕 NAULEAU.IO
 
 1.  **Who Am I.**
 
+    Philosopher. Developer. Problem Solver.
+    
+    Cryptographer? Maybe
+
+    Steal this layout from me. I dont care.
+    
     ```sh
-    # install the necessary packages
+    git clone http://github.com/ajnauleau/nauleau.io.git
+    cd nauleau.io
     npm install
     ```
-
-2.  **Projects**
+    Antoine
+    
+2.  **About.**
     
     Startups
 
-3.  **Started Developing.**
+3.  **Work.**
 
     Add Stories
 
-4.  **Journey Full of Experiences**
+4.  **Stuff.**
     
     Work and open source experiences
     
