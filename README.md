@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://nauleau.io/about/">
-    <img alt="Antoine" src="./assets/side-portrait.jpeg" width="60" />
+    <img alt="Antoine" src="./assets/side-portrait.jpeg" width="120" />
   </a>
 </p>
 <h1 align="center">
@@ -77,7 +77,7 @@ A quick look at the top-level files and directories you'll see in this personal 
   
   11.  **`yarn.lock`**: [Yarn](https://yarnpkg.com/) is a package manager alternative to npm. You can use either yarn or npm.  This file serves essentially the same purpose as `package-lock.json`, just for a different package management system.
 
-## 💫 Deploy
+## Deploy 💫
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ajnauleau/nauleau.io)
 =======
