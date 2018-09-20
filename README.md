@@ -7,28 +7,17 @@
   Antoine's Personal Resource
 </h1>
 
-/*🏮 Red Paper Lantern
-📔 Notebook With Decorative Cover
-📕 Closed Book
-📖 Open Book
-📗 Green Book
-📘 Blue Book
-📙 Orange Book
-📚 Books
-📓 Notebook
-📃 Page With Curl
-📜 Scroll
-📄 Page Facing Up*/
 
-## 📕 NAULEAU.IO
 
-1.  **Who Am I.**
+## 🧐 NAULEAU.IO 💻
 
-    Philosopher. Developer. Problem Solver.
-    
-    Cryptographer? Maybe
+1.  **Welcome.**
+  
+    Who Am I?
 
-    Steal this layout from me. I dont care.
+    Philosopher. Developer. Problem Solver-- Cryptographer? Maybe
+
+    Steal this layout from me. I dont really care.
     
     ```sh
     git clone http://github.com/ajnauleau/nauleau.io.git
@@ -49,7 +38,7 @@
     
     Work and open source experiences
     
-## 🧐 What's inside?
+## 🧐 What's inside? 📕
 
 A quick look at the top-level files and directories you'll see in this personal website.
 
