@@ -7,26 +7,45 @@
 }
 
 body {
-    padding: 1em;
+/*    padding: 1%;*/
     height: calc(100% - 24px);
     background-size: 100%;
     background-color: white;
     background-image: url('/assets/icons-artboard.png');
+    display: block;
+    position: relative;
+    
+}
+
+body.light::after {
+    content: '';
+    background: url(/assets/icons-artboard.png);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
 
 nav {
-    color: blue;
+    color: aliceblue; /*lightblue*/
     display: flex;
-/*    background-color: aliceblue;*/
+    padding: 1em;
+    height: 1em;
+    background-color: darkblue; /*aliceblue*/
     flex-direction: row-reverse;
-    justify-content: flex-start;
+    justify-content: space-between;
     font-family: 'Rubik Mono One', sans-serif;
-    
-    box-sizing: border-box;
+    align-items: center;
+    box-sizing: content-box;
 }
+
 
 h1 {
     font-family: 'Rubik Mono One', sans-serif;
+    padding: 1em;
 }
 
 p {
@@ -35,55 +54,130 @@ p {
 
 a {
     margin: auto;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* Start of classes */
+
+.portrait {
+    border-radius: 100;
+}
+
+.button {
+    background: darkblue;
+    color: aliceblue;
+    padding: 12px 20px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 6px;
+    align-items: left;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2em;
+    font-stretch: 1.5em;
+    -webkit-transition: background .3s ease-in-out;
+    -o-transition: background .3s ease-in-out;
+    transition: background .3s 
+}
+
+.button: active hover link visited {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.content {
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.footer {
+    padding: 2em;
+    margin-top: 1em;
+    align-content: left;
+/*
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+*/
 }
 
 /* Some grid styles */
 .grid {
+    
+    display: grid;
+    padding: 1em;
+    padding-top: 46%;
+    padding-right: 46%;
+    grid-gap: 10px 10px;
+    
+    /* repeat 1fr 4 times */
+    grid-template-columns: repeat(1, 1fr);
+    
+    /* The named areas below define where elements with
+    those names are placed on the grid. */
+    grid-template-areas:  "fl mc mc fr";
+}
+
+/* Some grid-content styles */
+.grid-content {
+    
     display: grid;
     grid-gap: 10px 10px;
     
     /* repeat 1fr 4 times */
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     
     /* The named areas below define where elements with
     those names are placed on the grid. */
-    grid-template-areas:  "hd hd hd hr" 
-                          "sb mc mc mc" 
-                          "sb mc mc mc"
-                          "ft ft ft fr";
+    grid-template-areas: "mc mc mc mc";
 }
   
 /* Some styles for all grid cells */
 .grid > div {
     color: white;
     padding: 1em;
+    margin-top: 24%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: left;
 }
 
  /* Styles for individual grid cells */
-  .header {
+.header {
     /* Map this cell to a named area in the grid */
     grid-area: hd;
   }
   
-  .header-right {
+.header-right {
     grid-area: hr;
   }
+
+.header-left {
+    grid-area: hl;
+  }
   
-  .main-content {
+.main-content {
     grid-area: mc;
   }
   
-  .side-bar {
+.side-bar {
     grid-area: sb;
   }
   
-  .footer {
+.footer {
     grid-area: ft;
   }
-  
-  .footer-right {
+
+.footer-right {
     grid-area: fr;
   }
+
+.footer-left {
+    grid-area: fl;
+  }
+
