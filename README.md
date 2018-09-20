@@ -38,15 +38,15 @@
 
 3.  **Work.**
 
-    Chainlinks - Founder, Full Stack Engineer [06/2014 - 11/2014]
+    Chainlinks - Founder, Full Stack Engineer [06/2018 - Current]
     
-    Sober - Founder, Head of Product
+    Sober - Founder, Head of Product [10/2014 - 11/2015]
     
-    Aisloc - Co-Founder, Software Engineer
+    Aisloc - Co-Founder, Software Engineer [04/2014 - 11/2014]
 
 4.  **Stuff.**
     
-    Open source contributions to codebases of  MetaMask(https://metamask.io), Gitcoin(https://gitcoin.co) and Ethereum(https://ethereum.org).
+    Open source contributions to codebases of  [MetaMask](https://metamask.io), [Gitcoin](https://gitcoin.co) and [Ethereum](https://ethereum.org).
     
     I enjoy working in Python, Javascript, HTML/CSS, Node, Django, Express, React, Redux, PostgreSQL, and Mongodb. 
     
