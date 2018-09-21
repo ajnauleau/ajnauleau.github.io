@@ -152,6 +152,15 @@ a:active {
     flex-direction: row;
 }
 
+.bottom {
+    padding: 2em;
+    margin-top: 21%;
+    align-content: left;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
 .home {
     padding: 2em;
     margin-top: 46%;
