@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.nauleau.io/sitemap.xml"> 
+  <url>
+    <loc>http://www.nauleau.io/about/</loc>
+    <lastmod>2018-09-20</lastmod>
+  </url>
+  <url>
+    <loc>http://www.nauleau.io/work/</loc>
+    <lastmod>2018-09-20</lastmod>
+  </url>
+  <url>
+    <loc>http://www.nauleau.io/stuff/</loc>
+    <lastmod>2018-09-20</lastmod>
+  </url>
+</urlset>
