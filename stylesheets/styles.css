@@ -143,6 +143,15 @@ a:active {
 */
 }
 
+.lower {
+    padding: 2em;
+    margin-top: 8em;
+    align-content: left;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
 .home {
     padding: 2em;
     margin-top: 46%;
