@@ -126,7 +126,7 @@ a:active {
     transition: background .3s
 }
 
-.button: active hover link visited {
+.button:active hover link visited {
     color: lightblue;
     text-decoration: none;
 }
@@ -182,7 +182,7 @@ a:active {
 
 .home {
     padding: 2em;
-    margin-top: 46%;
+    margin-top: 36%;
     align-content: left;
     display: flex;
     justify-content: flex-start;
