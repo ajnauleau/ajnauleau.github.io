@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://nauleau.io/about/">
-    <img alt="Antoine" src="./assets/side-portrait.jpeg" width="120" />
+    <img alt="Antoine" src="./assets/antoine_thinking.jpg" width="120" />
   </a>
 </p>
 <h1 align="center">
