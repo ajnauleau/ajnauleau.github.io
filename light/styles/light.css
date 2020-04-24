@@ -1,0 +1,573 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap");
+/*=============================
+  Base Styles
+=============================*/
+* {
+  box-sizing: border-box; }
+
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  line-height: 1.6;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: BlinkMacSystemFont, Avenir, "Montserrat", "Helvetica Neue", "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Droid Sans", sans-serif; }
+
+/*=============================
+  Alignement
+=============================*/
+.gap {
+  height: 1.5em; }
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.text-left {
+  text-align: left; }
+
+.justify-center {
+  display: flex;
+  justify-content: center; }
+
+.justify-column {
+  display: flex;
+  flex-direction: column; }
+
+.justify-column-between {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+
+.m {
+  margin: 1rem; }
+
+.mt {
+  margin-top: 1rem; }
+
+.mb {
+  margin-bottom: 1rem; }
+
+.m-2 {
+  margin: 2rem; }
+
+.mt-2 {
+  margin-top: 2rem; }
+
+.mb-2 {
+  margin-bottom: 2rem; }
+
+.m-3 {
+  margin: 3rem; }
+
+.mt-3 {
+  margin-top: 3rem; }
+
+.mb-3 {
+  margin-bottom: 3rem; }
+
+.m-4 {
+  margin: 4rem; }
+
+.mt-4 {
+  margin-top: 4rem; }
+
+.mb-4 {
+  margin-bottom: 4rem; }
+
+.p {
+  padding: 1rem; }
+
+.pt {
+  padding-top: 1rem; }
+
+.pb {
+  padding-bottom: 1rem; }
+
+.p-2 {
+  padding: 2rem; }
+
+.pt-2 {
+  padding-top: 2rem; }
+
+.pb-2 {
+  padding-bottom: 2rem; }
+
+.p-3 {
+  padding: 3rem; }
+
+.pt-3 {
+  padding-top: 3rem; }
+
+.pb-3 {
+  padding-bottom: 3rem; }
+
+.p-4 {
+  padding: 4rem; }
+
+.pt-4 {
+  padding-top: 4rem; }
+
+.pb-4 {
+  padding-bottom: 4rem; }
+
+/*=============================
+  Typography
+=============================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #222222;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir, "Montserrat", "Helvetica Neue", "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Droid Sans", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500; }
+
+h1 {
+  font-size: 37.009px;
+  line-height: 1.3; }
+
+h2 {
+  font-size: 32.182px;
+  line-height: 1.35; }
+
+h3 {
+  font-size: 27.984px;
+  line-height: 1.4; }
+
+h4 {
+  font-size: 24.334px;
+  line-height: 1.45; }
+
+h5 {
+  font-size: 21.16px;
+  line-height: 1.5; }
+
+h6 {
+  font-size: 18.4px;
+  line-height: 1.55; }
+
+p {
+  font-size: 16px; }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 33.311px; }
+
+  h2 {
+    font-size: 29.479px; }
+
+  h3 {
+    font-size: 26.088px; }
+
+  h4 {
+    font-size: 23.086px; }
+
+  h5 {
+    font-size: 20.43px; }
+
+  h6 {
+    font-size: 18.08px; } }
+hr {
+  max-width: 42rem;
+  height: 0;
+  margin: 1.25rem auto;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #BFBFBF;
+  border-left: 0;
+  border-style: dashed; }
+
+.header {
+  font-weight: 200; }
+
+/*=============================
+  Link
+=============================*/
+a {
+  color: #1d92cf;
+  transition: all 0.2s ease;
+  text-decoration: none; }
+
+a:hover {
+  cursor: pointer;
+  color: #032f62; }
+
+/*=============================
+  List
+=============================*/
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding-left: 0;
+  list-style-position: inside; }
+
+ul li,
+ol li {
+  margin-bottom: 16px; }
+
+ul li:last-child,
+ol li:last-child {
+  margin-bottom: 0; }
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-left: 16px; }
+
+/*=============================
+  Grid
+=============================*/
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 16px; }
+
+.row:last-child {
+  margin-bottom: 0; }
+
+.row .col {
+  margin: 0.5em;
+  padding: 0.5em;
+  flex-grow: 1;
+  flex-basis: 0; }
+
+.row .col-1 {
+  padding: 1em;
+  width: 8.333333333333332%; }
+
+.row .col-2 {
+  padding: 1em;
+  width: 16.666666666666664%; }
+
+.row .col-3 {
+  padding: 1em;
+  width: 25%; }
+
+.row .col-4 {
+  padding: 1em;
+  width: 33.33333333333333%; }
+
+.row .col-5 {
+  padding: 1em;
+  width: 41.66666666666667%; }
+
+.row .col-6 {
+  padding: 1em;
+  width: 50%; }
+
+.row .col-7 {
+  padding: 1em;
+  width: 58.333333333333336%; }
+
+.row .col-8 {
+  padding: 1em;
+  width: 66.66666666666666%; }
+
+.row .col-9 {
+  padding: 1em;
+  width: 75%; }
+
+.row .col-10 {
+  padding: 1em;
+  width: 83.33333333333334%; }
+
+.row .col-11 {
+  padding: 1em;
+  width: 91.66666666666666%; }
+
+.row .col-12 {
+  padding: 1em;
+  width: 100%; }
+
+@media screen and (max-width: 768px) {
+  .row .col,
+  .row [class^='col-'],
+  .row [class*=" col-"] {
+    flex-grow: 0;
+    flex-basis: 100%; } }
+/*=============================
+  Navigation
+=============================*/
+.nav {
+  width: 100%;
+  display: flex;
+  padding-top: 0.25rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7; }
+
+.nav.fixed {
+  position: fixed;
+  z-index: 1; }
+
+.nav-logo {
+  padding: 1rem;
+  display: flex;
+  align-items: center; }
+
+.nav-links {
+  padding: 1rem;
+  margin-bottom: 0.75rem; }
+
+.nav-links.right {
+  display: flex;
+  flex-grow: -1;
+  width: 100%;
+  flex-direction: row-reverse; }
+
+.nav-links.left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.nav-links.centered {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.nav-item {
+  padding: 0.5rem; }
+
+/*=============================
+  Cards
+=============================*/
+.cards {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-bottom: 2rem; }
+
+.card {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  border: 1px solid #d7d7d7;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem; }
+
+.card.light {
+  background: lightblue;
+  border: 1px solid #767676; }
+
+.card-content {
+  padding: 2rem;
+  border-bottom: 1px solid #d7d7d7; }
+
+.card-content.light {
+  padding: 2rem;
+  border-bottom: 1px solid #767676; }
+
+.card-footer {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+/*=============================
+  Form
+=============================*/
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=search],
+input[type=number],
+input[type=file],
+input[type=tel],
+input[type=url],
+select,
+textarea {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 16px;
+  font-size: 16px;
+  background: #f5f5f5;
+  border: 1px solid #a7a7a7;
+  border-radius: 2px;
+  transition: all 0.2s ease; }
+
+input[type=text].light,
+input[type=password].light,
+input[type=email].light,
+input[type=search].light,
+input[type=number].light,
+input[type=file].light,
+input[type=tel].light,
+input[type=url].light,
+select.light,
+textarea.light {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 16px;
+  font-size: 16px;
+  color: #767676;
+  background: lightblue;
+  border: 1px solid #a7a7a7;
+  border-radius: 2px;
+  transition: all 0.2s ease; }
+
+input[type=text]:hover,
+input[type=password]:hover,
+input[type=email]:hover,
+input[type=search]:hover,
+input[type=number]:hover,
+input[type=file]:hover,
+input[type=tel]:hover,
+input[type=url]:hover,
+select:hover,
+textarea:hover {
+  border-color: #111; }
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=search]:focus,
+input[type=number]:focus,
+input[type=file]:focus,
+input[type=tel]:focus,
+input[type=url]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #0062ff; }
+
+textarea {
+  min-height: 70px; }
+
+/*=============================
+  Button
+=============================*/
+button {
+  color: #fefefe;
+  cursor: pointer;
+  border: 0;
+  padding: 0.7em 1em;
+  margin: 0 0.2rem;
+  border-radius: 0.2em;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.2) inset;
+  font-weight: 500;
+  font-size: 1em;
+  width: 128px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000; }
+
+button.outline {
+  color: #000000;
+  cursor: pointer;
+  border: 0;
+  margin: 0 0.2rem;
+  padding: 0.7em 1em;
+  border-radius: 0.2em;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.2) inset;
+  font-weight: 500;
+  font-size: 1em;
+  width: 128px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  background: transparent; }
+
+button.light {
+  cursor: pointer;
+  color: #767676;
+  border: 0;
+  margin: 0 0.2rem;
+  padding: 0.7em 1em;
+  border-radius: 0.2em;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.2) inset;
+  font-weight: 500;
+  font-size: 1em;
+  width: 128px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+  border: 1px solid #fefefe; }
+
+button.light:hover {
+  color: #fefefe;
+  background: #1a82b9;
+  transition: 200ms; }
+
+/*=============================
+  Code
+=============================*/
+pre {
+  margin-top: 0; }
+
+pre code {
+  display: block;
+  padding: 0.5rem;
+  word-wrap: break-word; }
+
+pre code.block {
+  white-space: pre-wrap; }
+
+code {
+  padding: 0.2rem 0.5rem;
+  margin: 0 0.2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: lightblue;
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+  font-family: "Consolas", "Monaco", "Menlo", monospace; }
+
+/*============================
+  Utilities
+============================*/
+.hero {
+  height: 80vh; }
+
+.block {
+  display: block; }
+
+.content {
+  font-weight: 1.6rem; }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 80%; }
+
+/*# sourceMappingURL=light.css.map */

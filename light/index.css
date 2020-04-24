@@ -1,0 +1,47 @@
+section {
+    margin-top: 90px;
+}
+
+/* Hero Styling */
+
+.hero h5 {
+    font-weight: 200;
+}
+
+.hero h3 {
+    color: lightgray;
+}
+
+
+/* Grid */
+
+
+.square {
+    width: 128px;
+    height: 48px;
+    padding: 0.2rem 0.5rem;
+    margin: 0 0.2rem;
+    font-size: 90%; 
+    background: lightblue;
+    border: 1px solid #d7d7d7;
+}
+
+
+/* Code Styles */
+
+.method {
+    color: #00A2CD;
+}
+
+.global {
+    color: #db9114;
+}
+
+.string {
+    color: #02C1A7;
+}
+
+.code-block {
+    margin-top: 46px;
+}
+
