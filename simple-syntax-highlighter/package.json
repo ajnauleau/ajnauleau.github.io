@@ -1,0 +1,54 @@
+{
+  "_from": "highlight-html-syntax",
+  "_id": "highlight-html-syntax@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-q7oKRb3tH4JFtdhQUlXqM2xzuQQjD9DMXY5Y1mBzE51rdpJtvLsIIhC45dJ7U2J9f6VUaMsy7o4KWctyN9X7EA==",
+  "_location": "/highlight-html-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "highlight-html-syntax",
+    "name": "highlight-html-syntax",
+    "escapedName": "highlight-html-syntax",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/highlight-html-syntax/-/highlight-html-syntax-1.1.0.tgz",
+  "_shasum": "e5f671af2e9838a25f512c11961fd03bf91b7057",
+  "_spec": "highlight-html-syntax",
+  "_where": "/Users/Antoine/Developer/Projects/antoinenauleau/nauleau/simple-syntax-highlighter",
+  "author": {
+    "name": "ajnauleau",
+    "email": "antoine@nauleau.io"
+  },
+  "bugs": {
+    "url": "https://github.com/ajnauleau/highlight-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Simple Syntax Highlighter for HTML code",
+  "homepage": "https://github.com/ajnauleau/highlight-syntax#readme",
+  "keywords": [
+    "syntax",
+    "highlighter",
+    "html",
+    "code"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "highlight-html-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajnauleau/highlight-syntax.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}
