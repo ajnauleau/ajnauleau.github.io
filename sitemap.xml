@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.nauleau.io/sitemap.xml"> 
+<urlset xmlns="http://www.nauleau.io/sitemap.xml">
   <url>
     <loc>http://www.nauleau.io/about/</loc>
     <lastmod>2018-09-20</lastmod>
@@ -15,5 +15,11 @@
   <url>
     <loc>http://www.nauleau.io/code/activity</loc>
     <lastmod>2018-09-20</lastmod>
+  </url>
+  <url>
+    <loc>http://www.nauleau.io/light</loc>
+  </url>
+  <url>
+    <loc>http://www.nauleau.io/simple-syntax-highlighter</loc>
   </url>
 </urlset>
