@@ -2,18 +2,28 @@
     <head>
         <link rel="stylesheet" href="./styles/light.css">
         <link rel="stylesheet" href="./index.css">
-        <meta property="og:image" content="./assets/banner.png">
-        <meta property="og:title" content="Light">
-        <meta name="keywords" content="HTML, CSS, Minimal, Light, Framework">
-        <meta property="og:description" content="Minimal CSS Framework">
     </head>
     <body>
+    <section id="navigation">
+          <div class="container">
+              <div class="nav">
+                <div class="nav-links centered">
+                    <a class="nav-item" href="#installation">Install</a>
+                    <a class="nav-item" href="#guide">Guide</a>
+                    <a class="nav-item" href="https://github.com/ajnauleau/light">Github</a>
+                    <div class="nav-item">
+                        <iframe src="https://ghbtns.com/github-btn.html?user=ajnauleau&amp;repo=light&amp;type=star&amp;count=true" scrolling="0" width="95px" height="20px" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </section>
     <section id="hero" class="hero container center text-center">
            <div>
                 <h3>Light</h3>
                <h5>Minimal Framework</h5>
            </div>
-       </section>
+    </section>
        <section id="installation" class="container">
            <div>
                <h3 class="header">INSTALLATION</h3>
@@ -27,7 +37,7 @@
                      <span class="method">&lt;link</span>
                      <span class="global">rel</span>=<span class="string">"stylesheet"</span>
                      <span class="global">href</span>=<span class="string">"https://unpkg.com/light-css-framework"</span>
-                     <span class="method">/&gt;</span>
+                     <span class="method">/&gt;</span> 
                    </code>
                </pre>
                <h5>NPM</h5>
@@ -96,7 +106,7 @@
             </div>
             </div>
         </div>
-
+        
         <div class="gap"></div>
         <div class="section">
                 <h3 class="header">
@@ -109,20 +119,20 @@
                 <div class="row">
                     <div class="col square"><p>1</p>
                     </div>
-
+                    
                     <div class="col square"><p>2</p>
                     </div>
-
+                    
                     <div class="col square"><p>3</p>
                     </div>
-
+                    
                     <div class="col square"><p>4</p>
                     </div>
                 </div>
             </div>
             <pre>
                <code class="block">
-    <span class="method">&lt;div</span><span class="global"> class</span>=<span class="string">"row"</span><span class="method">></span>
+    <span class="method">&lt;div</span><span class="global"> class</span>=<span class="string">"row"</span><span class="method">></span> 
         <span class="method">&lt;div</span><span class="global"> class</span>=<span class="string">"col"</span><span class="method">></span>1<span class="method">&lt;/div&gt;</span>
         <span class="method">&lt;div</span><span class="global"> class</span>=<span class="string">"col"</span><span class="method">></span>2<span class="method">&lt;/div&gt;</span>
         <span class="method">&lt;div</span><span class="global"> class</span>=<span class="string">"col"</span><span class="method">></span>3<span class="method">&lt;/div&gt;</span>
@@ -133,7 +143,7 @@
             <p class="content">
                 You can expand to the following <code>col-1</code> to <code>col-12</code> classes.
             </p>
-        </div>
+        </div>            
         <div class="gap"></div>
         <div class="section">
                 <h3 class="header">
@@ -153,8 +163,8 @@
                 </div>
             </div>
             <pre>
-        <code class="block">
-    <span class="method">&lt;div</span><span class="global"> class</span>=<span class="string">"nav"</span><span class="method">></span>
+        <code class="block">    
+    <span class="method">&lt;div</span><span class="global"> class</span>=<span class="string">"nav"</span><span class="method">></span>    
         <span class="method">&lt;div</span> <span class="global">class</span>=<span class="string">"nav-logo"</span><span class="method">></span>
             <span class="method">&lt;h4&gt;</span>light<span class="method">&lt;/h4&gt;</span>
         <span class="method">&lt;/div&gt;</span>
@@ -169,7 +179,7 @@
             <p class="content">
                 Navigation links can we aligned <code>left</code>, <code>centered</code>, or <code>right</code> to the logo and <code>fixed</code> to the top.
             </p>
-
+            
         <div class="gap"></div>
         <div class="section">
                 <h3 class="header">
@@ -204,7 +214,7 @@
          <span class="method">&lt;/div</span><span class="method">&gt;</span>
                 </code>
             </pre>
-
+            
         <div class="gap"></div>
         <div class="section">
                 <h3 class="header">
@@ -213,7 +223,7 @@
             <p class="content">
                 Light uses three main buttons styles, filled, outline, and light.
             </p>
-
+            
             <div class="row center">
                 <div class="col-5" >
                     <button>Filled</button>
@@ -226,7 +236,7 @@
                     </code>
                 </div>
             </div>
-
+               
             <div class="row center">
                <div class="col">
                     <button class="outline">Outline</button>
@@ -240,7 +250,7 @@
                     </code>
                 </div>
             </div>
-
+                
             <div class="row center">
                 <div class="col">
                     <button class="light">Light</button>
@@ -256,9 +266,9 @@
                     </div>
                 </div>
             </div>
-
+                
             </div>
-
+            
         <div class="gap"></div>
         <div class="section">
                 <h3 class="header">
@@ -267,7 +277,7 @@
             <p class="content">
                 Forms are designed clean and with minimal style.
             </p>
-
+            
              <div class="row">
                 <div class="col">
                     <label for="name">
@@ -286,14 +296,14 @@
                     </select>
                 </div>
             </div>
-
+            
             <div class="row">
                <div class="col justify-column">
                     <label for="textarea">Comment</label>
                    <textarea name="textarea" placeholder="Additional details ... "></textarea>
                </div>
             </div>
-
+            
             <pre>
                 <code class="block">
  <span class="method">&lt;form<span class="method">&gt;</span></span> <span class="global">
@@ -303,9 +313,9 @@
  <span class="method">&lt;/form<span class="method">&gt;</span></span>
                 </code>
             </pre>
-
+            
             <p class="content">With <code>light</code> class added</p>
-
+            
             <div class="row">
                 <div class="col">
                     <label for="name">
@@ -355,27 +365,27 @@
                 <p><code>.gap</code> - Adds a <code>1rem</code> gap.</p>
                 <p><code>.center</code> - Centers items.</p>
                 <p><code>.text-center</code> - Align text to the center.</p>
-
+                
                 <p><code>.text-right</code> - Align text to the right.</p>
-
+                
                 <p><code>.text-left</code> - Align text to the left.</p>
-
+                
                 <p><code>.justify-center</code> - Align flex justify center.</p>
-
+                
                 <p><code>.justify-column</code> - Align flex justify column.</p>
-
+                
                 <p><code>.justify-column-between</code> - Align flex justify column space between.</p>
-
+                
                 <p><code>.m</code> to <code>.m4</code> - Margin of <code>1rem</code> to <code>4rem</code>.</p>
-
+                
                 <p><code>.mt</code> to <code>.mt-4</code> - Margin-top of <code>1rem</code> to  <code>4rem</code>.</p>
-
+                
                 <p><code>.m</code> to <code>.mb-4</code> - Margin-bottom of <code>1rem</code> to <code>4rem</code>.</p>
-
+                
                 <p><code>.p</code> to <code>.p4</code> - Padding of <code>1rem</code> to  <code>4rem</code>.</p>
-
+                
                 <p><code>.pb</code> to <code>.pb-4</code> - Padding-bottom of <code>1rem</code> to  <code>4rem</code>.</p>
-
+                
                 <p><code>.pt</code> to <code>.pt-4</code> - Padding-top of <code>1rem</code> to  <code>4rem</code>.</p>
             </div>
        </section>
