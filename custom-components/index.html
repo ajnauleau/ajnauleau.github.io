@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <link rel="stylesheet" href="./node_modules/light-css-framework/index.css">
+    <link rel="stylesheet" href="./node_modules/light-css-framework/styles/light.css">
+    <meta property="og:image" content="./assets/logo.png">
+    <meta property="og:title" content="Custom-Components">
+    <meta name="keywords" content="HTML, Web, Components, Custom, CSS, Styled">
+    <meta property="og:description" content="Custom Web-Components with Easy Styling">
+</head>
+<body>
+<section id="navigation">
+    <div class="container">
+        <div class="nav">
+            <div class="nav-links centered">
+                <a class="nav-item" href="#installation">Install</a>
+                <a class="nav-item" href="#guide">Guide</a>
+                <a class="nav-item" href="https://github.com/ajnauleau/custom-components">Github</a>
+                <div class="nav-item">
+                    <iframe src="https://ghbtns.com/github-btn.html?user=ajnauleau&amp;repo=custom-components&amp;type=star&amp;count=true" scrolling="0" width="95px" height="20px" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="hero" class="hero container center text-center">
+    <div class="center">
+        <img src="./assets/logo.png" style="width:440px;height:480px">
+        <h5 class="text-center">Make and style custom web components easily!</h5>
+    </div>
+</section>
+<section id="installation" class="container">
+    <div>
+        <h3 class="header">INSTALLATION</h3>
+        <p class=content>
+            The best way to install Custom-Components is by installing the npm package.
+        </p>
+        <div class="code-block">
+            <h5>NPM</h5>
+            <pre>
+                   <code>
+                       $ npm install --save @ajnauleau/custom-components
+                   </code>
+               </pre>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <hr>
+</div>
+
+<section id="guide" class="container">
+    <div>
+        <h3>Guide</h3>
+    </div>
+    <div class="gap"></div>
+    <div>
+        <h3 class="header">Style</h3>
+        <p class=content>
+            First start out by adding css styles to your component:
+        </p>
+        <pre>
+            <code class="block">import Component from '@ajnauleau/custom-components';
+
+
+const Custom = Component.styled`
+    color: red;
+    background: black;
+`;</code>
+        </pre>
+    </div>
+    <div>
+        <h3 class="header">Extend</h3>
+        <p class=content>
+            Extend your component by adding any valid HTML between template literals <code>''</code>:
+        </p>
+        <pre>
+            <code class="block">class WebComponent extends Custom {
+
+    constructor() {
+        super();
+    }
+
+    render() {
+        let world = 'world';
+        return (
+            `&lt;div&gt;
+                &lt;p&gt;hello ${world}&lt;/p&gt;
+             &lt;div&gt;
+             `
+        )
+    }
+}</code>
+        </pre>
+    </div>
+    <div>
+        <h3 class="header">Render</h3>
+        <p class=content>
+            Render your new web component and give it a custom name. REMEMBER! Web component names must use a hyphen (-).
+        </p>
+        <pre>
+            <code>customElements.define('custom-component', WebComponent);</code>
+        </pre>
+    </div>
+    <div>
+        <h3 class="header">Result</h3>
+        <p class=content>
+            Embed and link your javascript, then use your new custom component.
+        </p>
+        <pre>
+            <code class="block">&lt;html&gt;
+    &lt;body&gt;
+        &lt;custom-component&gt;
+        &lt;/custom-component&gt;
+        &lt;script type=&quot;module&quot; src=&quot;./index.js&quot;&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code>
+        </pre>
+    </div>
+    <div>
+        <h3 class="header">Summary</h3>
+        <p class=content>
+            Here's the complete javascript file for your reference.
+        </p>
+        <pre>
+            <code class="block">import Component from '@ajnauleau/custom-components';
+
+
+const Custom = Component.styled`
+    color: red;
+    background: black;
+`;
+
+
+class WebComponent extends Custom {
+
+    constructor() {
+        super();
+    }
+
+    render() {
+        return (
+            `&lt;p&gt;hello&lt;/p&gt;`
+        )
+    }
+
+}
+
+customElements.define('custom-component', WebComponent);</code>
+        </pre>
+    </div>
+
+
+</section>
+<hr>
+<section id="footer" class="container">
+    <p class="content">Made by <a href="http://github.com/ajnauleau">@ajnauleau</a></p>
+</section>
+
+</html>
