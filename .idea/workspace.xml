@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dd11755-d575-4ef1-a819-3890e8c24945" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-components/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/custom-components/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stuff/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/stuff/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-components/styles/light.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom-components/styles/light.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,15 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stuff/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="361">
               <caret line="49" column="151" selection-start-line="49" selection-start-column="151" selection-end-line="49" selection-end-column="151" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#p#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#p#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/custom-components/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="light.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/custom-components/styles/light.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="550" column="17" lean-forward="true" selection-start-line="550" selection-start-column="17" selection-end-line="550" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -46,6 +58,7 @@
         <option value="$PROJECT_DIR$/light/index.html" />
         <option value="$PROJECT_DIR$/sitemap.xml" />
         <option value="$PROJECT_DIR$/stuff/index.html" />
+        <option value="$PROJECT_DIR$/custom-components/styles/light.css" />
       </list>
     </option>
   </component>
@@ -92,6 +105,17 @@
               <item name="nauleau.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="nauleau.io" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nauleau.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nauleau.io" type="462c0819:PsiDirectoryNode" />
+              <item name="custom-components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nauleau.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nauleau.io" type="462c0819:PsiDirectoryNode" />
+              <item name="custom-components" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nauleau.io" type="b2602c69:ProjectViewProjectNode" />
@@ -160,12 +184,12 @@
       <workItem from="1587746938286" duration="1636000" />
       <workItem from="1587815896445" duration="70000" />
       <workItem from="1588369542017" duration="677000" />
-      <workItem from="1588942174480" duration="24000" />
+      <workItem from="1588942174480" duration="304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5377000" />
+    <option name="totallyTimeSpent" value="5657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="56" width="732" height="635" extended-state="0" />
@@ -459,12 +483,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stuff/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="361">
           <caret line="49" column="151" selection-start-line="49" selection-start-column="151" selection-end-line="49" selection-end-column="151" />
           <folding>
             <element signature="n#style#0;n#a#0;n#p#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom-components/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom-components/styles/light.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="550" column="17" lean-forward="true" selection-start-line="550" selection-start-column="17" selection-end-line="550" selection-end-column="17" />
         </state>
       </provider>
     </entry>
