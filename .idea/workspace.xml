@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dd11755-d575-4ef1-a819-3890e8c24945" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/custom-components/styles/light.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom-components/styles/light.css" afterDir="false" />
-    </list>
+    <list default="true" id="7dd11755-d575-4ef1-a819-3890e8c24945" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -37,8 +35,8 @@
       <file leaf-file-name="light.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/custom-components/styles/light.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="550" column="17" lean-forward="true" selection-start-line="550" selection-start-column="17" selection-end-line="550" selection-end-column="17" />
+            <state relative-caret-position="118">
+              <caret line="543" column="26" lean-forward="true" selection-start-line="543" selection-start-column="26" selection-end-line="543" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -184,12 +182,12 @@
       <workItem from="1587746938286" duration="1636000" />
       <workItem from="1587815896445" duration="70000" />
       <workItem from="1588369542017" duration="677000" />
-      <workItem from="1588942174480" duration="304000" />
+      <workItem from="1588942174480" duration="363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5657000" />
+    <option name="totallyTimeSpent" value="5716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="56" width="732" height="635" extended-state="0" />
@@ -497,8 +495,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/custom-components/styles/light.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="550" column="17" lean-forward="true" selection-start-line="550" selection-start-column="17" selection-end-line="550" selection-end-column="17" />
+        <state relative-caret-position="118">
+          <caret line="543" column="26" lean-forward="true" selection-start-line="543" selection-start-column="26" selection-end-line="543" selection-end-column="26" />
         </state>
       </provider>
     </entry>

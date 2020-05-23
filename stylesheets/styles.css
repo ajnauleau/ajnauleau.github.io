@@ -145,7 +145,6 @@ a:active {
 .content img {
     height: 300px;
     width: 250px;
-    border: 2px black solid;
     opacity: 0.8;
     margin-top: 2em;
     margin-bottom: 2em;
