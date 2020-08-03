@@ -71,8 +71,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/paywall/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            <state relative-caret-position="224">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -227,12 +227,12 @@
       <workItem from="1588369542017" duration="677000" />
       <workItem from="1588942174480" duration="363000" />
       <workItem from="1590236742324" duration="573000" />
-      <workItem from="1593509689433" duration="2631000" />
+      <workItem from="1593509689433" duration="2744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8920000" />
+    <option name="totallyTimeSpent" value="9033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="151" width="644" height="710" extended-state="0" />
@@ -608,8 +608,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/paywall/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        <state relative-caret-position="224">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
